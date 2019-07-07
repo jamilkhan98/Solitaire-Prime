@@ -1,5 +1,4 @@
 //Jamil Khan
-//CECS 282-05
 //Prog 1 - Solitaire Prime
 //Sept 20, 2018
 
