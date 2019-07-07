@@ -9,6 +9,7 @@
 
 using namespace std;
 
+//helper methods to run modified version of Solitaire game
 bool isPrime(int x);
 void play_game(Deck deck);
 
@@ -60,6 +61,7 @@ int main()
 	}
 }
 
+//method to start the game, which runs until completion
 void play_game(Deck deck) {
 	int pileCounter = 0;
 	int sum = 0;
@@ -85,6 +87,7 @@ void play_game(Deck deck) {
 	}
 }
 
+//method to determine if a card's value is of a prime number
 bool isPrime(int x) {
 	if (x == 2) {
 		return true;
