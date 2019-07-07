@@ -1,2 +1,2 @@
 # Solitaire-Prime
-modified version of classic game involving prime numbers
+Modified Version of Classic Solitaire Game Now Involving Prime Numbers
