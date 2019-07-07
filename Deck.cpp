@@ -9,6 +9,8 @@
 #include <stdio.h>
 
 using namespace std;
+
+//Default constructor for Deck object (collection of Card objects)
 Deck::Deck()
 {
 	top = 0;
@@ -19,6 +21,8 @@ Deck::Deck()
 		}
 	}
 }
+
+//method to reset ranks and values of all Card objects in Deck object
 void Deck::refreshDeck()
 {
 	top = 0;
@@ -30,11 +34,15 @@ void Deck::refreshDeck()
 	}
 
 }
+
+//method to deal top Card object from Deck
 Card Deck::deal()
 {
 	return storage[top++];
 
 }
+
+//method to randomly shuffle Card objects in Deck
 void Deck::shuffle()
 {
 	int x;
@@ -52,10 +60,14 @@ void Deck::shuffle()
 	}
 
 }
+
+//method to return number of Card objects remaining
 int Deck::cardsLeft()
 {
 	return 52 - top;
 }
+
+//display method to display all Card objects in Deck in 4x13 matrix
 void Deck::showDeck()
 {
 	int i = 0;
